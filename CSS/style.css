@@ -169,10 +169,16 @@ img:last-of-type {
   right: 60%; 
 }
 
+.imageonet{
+  position: absolute;
+  top: 150px; 
+  left: 60%; 
+}
+
 
 
 #slide3:before {
-  background-image: url("https://lorempixel.com/640/480/abstract/5/");
+  background-image: url(../images/tailobackground.jpg);
   transform: translateZ(-1px) scale(2);
 }
 
@@ -279,9 +285,17 @@ img:last-of-type {
   font-size: 2rem;
   text-shadow: 2px 2px #444;
   position: absolute;
-  bottom: 0px;
-  left: 35%;
+  bottom: 10px;
+  left: -35%;
   opacity: .80;
   color: white;
+  width: 170%;
+  padding: 10px;
+  border-radius: 10px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  transform: translateZ(.25px) scale(.70);
+ transform-origin: 50% 100%;
+
 }
 @import url(https://fonts.googleapis.com/css?family= "Montserrat", sans-serif;);
