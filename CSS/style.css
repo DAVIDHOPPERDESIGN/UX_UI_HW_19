@@ -36,6 +36,11 @@ p {
   color: #333;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .slide {
   position: relative;
   padding: 25vh 10%;
@@ -60,7 +65,7 @@ img {
 }
 
 img:last-of-type {
-  transform: translateZ(.4px) scale(.6) translateX(-4%) translateY(-4%) rotate(-0deg);
+  transform: translateZ(.4px) scale(.7) translateX(-4%) translateY(-4%) rotate(-0deg);
 }
 
 .slide:before {
@@ -118,6 +123,8 @@ img:last-of-type {
  transform-origin: 50% 100%;
 
 }
+
+
 
 #slide1:before {
   background-image: url(../images/kumushaimagebackground.png);
@@ -299,4 +306,9 @@ img:last-of-type {
  transform-origin: 50% 100%;
 }
 
-@import url(https://fonts.googleapis.com/css?family= "Montserrat", sans-serif;);
+@import url("https://fonts.googleapis.com/css?family= Montserrat, sans-serif");
+@media screen and (max-width: 650px){
+  h1{
+    font-size: 100%;
+  }
+}
