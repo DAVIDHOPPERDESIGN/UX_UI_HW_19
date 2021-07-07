@@ -120,7 +120,7 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("images/kumushabackground2.png");
+  background-image: url(../images/kumushaimagebackground.png);
   transform: translateZ(-1px) scale(2);
 }
 
