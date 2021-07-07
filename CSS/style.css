@@ -306,6 +306,10 @@ img:last-of-type {
  transform-origin: 50% 100%;
 }
 
+.connectimage{
+  height: 30px;
+}
+
 @import url("https://fonts.googleapis.com/css?family= Montserrat, sans-serif");
 @media screen and (max-width: 650px){
   h1{
