@@ -48,15 +48,15 @@ p {
 
 img {
   position: absolute;
-  top: 50%;
+  top: 100%;
   left: 50%;
-  width: 320px;
-  height: 240px;
-  transform: translateZ(.25px) scale(.75) translateX(10%) translateY(10%) rotate(0deg);
-  padding: 10px;
-  border-radius: 5px;
-  background: rgba(240,230,220, .7);
-  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  width: 25%;
+  height: 50%;
+  transform: scale(.75) translateX(0%) translateY(0%) rotate(0deg);
+  padding: 1px;
+  border-radius: 1px;
+  background: none;
+  box-shadow: none;
 }
 
 img:last-of-type {
@@ -120,12 +120,12 @@ img:last-of-type {
 }
 
 #slide1:before {
-  background-image: url("https://lorempixel.com/640/480/abstract/4/");
+  background-image: url("images/kumushabackground2.png");
   transform: translateZ(-1px) scale(2);
 }
 
 #slide2 {
-  background-image: url("https://lorempixel.com/640/480/abstract/3/");
+  background-image: url("kumushabackground2.png");
   z-index:2;
 }
 
