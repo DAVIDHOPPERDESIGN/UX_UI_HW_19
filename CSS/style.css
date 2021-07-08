@@ -51,6 +51,7 @@ a{
 	transform-style: inherit;
 }
 
+
 img {
   position: absolute;
   top: 100%;
@@ -84,6 +85,15 @@ img:last-of-type {
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+
+.what{
+  width: 100%;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  right: 50%;
 }
 
 .slide:nth-child(2n) .title {
@@ -182,7 +192,11 @@ img:last-of-type {
   left: 60%; 
 }
 
-
+.imageonefoot{
+  position: absolute;
+  top: 150px; 
+  left: 26rem; 
+}
 
 #slide3:before {
   background-image: url(../images/tailobackground.jpg);
@@ -190,8 +204,11 @@ img:last-of-type {
 }
 
 #slide4 {
-  background-image: url(../images/touch2.png);
-  
+  background:rgba(240,230,220, .7);
+  z-index: 2;
+  width: 105%;
+  height: 150%;
+  align-content: center;
 }
 
 
@@ -304,10 +321,6 @@ img:last-of-type {
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
   transform: translateZ(.25px) scale(.70);
  transform-origin: 50% 100%;
-}
-
-.connectimage{
-  height: 30px;
 }
 
 @import url("https://fonts.googleapis.com/css?family= Montserrat, sans-serif");
