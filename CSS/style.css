@@ -194,8 +194,9 @@ img:last-of-type {
 
 .imageonefoot{
   position: absolute;
+  width: 100%; 
   top: 150px; 
-  left: 48rem; 
+  right: 48rem; 
   padding: 1px;
   border-radius: 4px;
   background: black;
@@ -334,5 +335,8 @@ img:last-of-type {
 @media screen and (max-width: 650px){
   h1{
     font-size: 100%;
+  }
+  .imageonefoot {
+    width: 100%;
   }
 }
